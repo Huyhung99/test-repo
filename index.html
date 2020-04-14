@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <form>
+        <div class="row">
+            <label for="ho-ten">Họ Tên</label>
+            <input type="text" id="ho-ten">
+        </div>
+        <div>
+            <label for="ngay-sinh">Ngày sinh</label>
+            <input type="date" id="ngay-sinh">
+        </div>
+        <div>
+            <label for="ten-dang-nhap">Tên đăng nhập</label>
+            <input type="text" id="ten-dang-nhap">
+        </div>
+        <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="ngay-sinh">Giới tính</label>
+            <label> <input type="radio" name="gioi-tinh">Nam</label>
+            <label> <input type="radio" name="gioi-tinh">Nữ</label>
+
+        </div>
+        <div>
+            <label for="vung-mien">vùng miền</label>
+            <select id="vung-mien">
+                <option>miền bắc</option>
+                <option>miền nam</option>
+                <option>miền trung</option>
+            </select>
+        </div>
+        <div>
+            <label for="dia-chi">Địa chỉ</label>
+            <input type="text" id="dia-chi">
+        </div>
+        <div>
+            <label>Sở thích</label>
+            <label><input type="checkbox" name="so-thich[]">bơi</label>
+            <label><input type="checkbox" name="so-thich[]">game</label>
+            <label><input type="checkbox" name="so-thich[]">hát</label>
+        </div>
+        <div>
+            <label for="noi-dung-ghi-chu">Nội dung ghi chú</label>
+            <textarea id="noi-dung-ghi-chu"></textarea>
+        </div>
+        <div>
+            <button type="submit">Lưu lại</button>
+        </div>
+    </form>
+</body>
+</html>
